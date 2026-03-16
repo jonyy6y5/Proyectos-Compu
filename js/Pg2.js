@@ -13,7 +13,7 @@ extra.forEach(extra => {
     total+=parseInt(extra.dataset.precio)
 })
 total = total * cantidad
- alert("Nombre del cliente: "+ nom.value + "\ncantidad de cafes: " + cant.alue + "\nTamaño de cafe elegido: "+ tm.value + "\nExtras elejidos: "+Extras + "\nTotal de pago: " + total) ;
+ alert("Nombre del cliente: "+ nom.value + "\ncantidad de cafes: " + cant.value + "\nTamaño de cafe elegido: "+ tm.value + "\nExtras elejidos: "+Extras + "\nTotal de pago: " + total) ;
     }
 
     
