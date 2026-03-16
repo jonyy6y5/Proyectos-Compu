@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Pedido</title>
+    <link rel="stylesheet" href="/css/estilo.css">
+    <script src="/js/Pg2.js"></script>
+</head>
+<body>
+   <table id="TablaPrueba" name="tabla1" border="1">
+<thead>
+</thead>
+<tbody>
+
+<tr><td> Elija su pedido</td> <td><img src="/Img/cafe.jfif" alt="" class="avatar" width="150"></td></tr>
+<tr><td>Cantidad de cafés</td> <td><input type="text" id ="cant"></td></tr>
+<tr><td>Nombre del cliente</td> <td><input type="text" id ="nom"></td></tr>
+
+<tr><td>Extra grande $55</td> <td><input name="tm" type="radio" value="Extra grande" data-precio="55"></td></tr>  
+<tr><td>Grande $35</td> <td><input name="tm"  type="radio" value="Grande" data-precio="35"></td></tr>
+<tr><td>Mediano $20</td> <td><input name="tm" type="radio" value="Mediano" data-precio="20"></td></tr>
+<tr><td>Chico $15</td> <td><input name="tm" type="radio" value="Chico" data-precio="15"></td></tr>
+
+
+<tr><td>Canela $5</td><td><input type="checkbox" name="extra" id ="Canela" value="Canela" data-precio="5"></td></tr>
+<tr><td>Chocolote $10</td> <td><input type="checkbox" name="extra"id ="Chocolate" value="Chocolate" data-precio="10"></td></tr>
+<tr><td> Nieve $15</td> <td><input type="checkbox" name="extra"id ="Nieve" value="Nieve" data-precio="15"></td></tr>
+</table>
+</tbody>
+<button id="algo" onclick="control()">mira ese boton</button>
+<button id="Boton2" onclick="control()">mira</button>
+</body>
+</html>
+
+
